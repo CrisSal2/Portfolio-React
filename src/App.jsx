@@ -1,15 +1,21 @@
 import { useState } from 'react'
 import './App.css'
 import {Routes, Route} from 'react-router-dom'
+import NavBar from './components/NavBar'
 import Home from './containers/home/home'
 import Portfolio from './containers/portfolio/portfolio'
 import Contact from './containers/contact/contact'
+import Resume from './containers/resume/resume'
+import Skills from './containers/skills/skills'
+
+
 
 function App() {
 
   return (
     <>
       <div>
+        <NavBar />
         <Routes>
           <Route index path='/' element={<Home />} />
           <Route path='/portfolio' element={<Portfolio />} />

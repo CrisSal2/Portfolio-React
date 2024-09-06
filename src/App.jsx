@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import {Routes, Route} from 'react-router-dom'
 import NavBar from './components/NavBar'
@@ -7,6 +6,7 @@ import Portfolio from './containers/portfolio/portfolio'
 import Contact from './containers/contact/contact'
 import Resume from './containers/resume/resume'
 import Skills from './containers/skills/skills'
+import Footer from './components/Footer'
 
 
 
@@ -23,6 +23,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/resume' element={<Resume />} />
         </Routes>
+        <Footer />
       </div>
     </>
   )

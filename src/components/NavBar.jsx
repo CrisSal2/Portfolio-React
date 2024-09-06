@@ -1,4 +1,3 @@
-import '../styles/NavBar.css';
 
 
 const data = [

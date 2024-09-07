@@ -11,8 +11,8 @@ const data = [
         to: '/skills'
     },
     {
-        label: 'PROJECTS',
-        to: '/projects'
+        label: 'PORTFOLIO',
+        to: '/portfolio'
     },
     {
         label: 'CONTACT',
@@ -39,8 +39,8 @@ function NavBar() {
                 <Link to={'/skills'}>
                 <button>Skills</button>
                 </Link>
-                <Link to={'/projects'}>
-                <button>Projects</button>
+                <Link to={'/portfolio'}>
+                <button>Portfolio</button>
                 </Link>
                 <Link to={'/contact'}>
                 <button>Contact</button>

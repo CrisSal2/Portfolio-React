@@ -60,6 +60,11 @@ button:focus-visible {
   background-color: #8a959b;
 }
 
+button {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .footer {
   padding: 3%;
   background-color: #8a959b;
@@ -78,6 +83,17 @@ button:focus-visible {
 .icons {
   height: 100%;
   cursor: pointer;
+  font-size: 35px;
+  
+}
+
+.icon {
+  margin: 0rem 2rem 0rem 2rem;
+  color: white;
+}
+
+.icon:hover {
+  color: black;
 }
 
 

@@ -7,6 +7,7 @@ import Contact from './containers/contact/contact'
 import Resume from './containers/resume/resume'
 import Skills from './containers/skills/skills'
 import Footer from './components/Footer'
+import Header from './components/Header'
 
 
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <div>
+        <Header />
         <NavBar />
         <Routes>
           <Route index path='/' element={<Home />} />

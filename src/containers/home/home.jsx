@@ -1,9 +1,9 @@
-import React from "react"
 import profilePic from '../../assets/images/Custom-PC.jpg'
+import './home.css'
 
 function Home() {
     return(
-        <div>
+        <div className='homeDiv'>
         <div id="Profile_Picture">
             <img src={profilePic} alt="Profile Picture" />
         </div>

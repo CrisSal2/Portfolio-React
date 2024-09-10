@@ -1,0 +1,61 @@
+
+.repo-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+  
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+
+.repo-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+.repo-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.repo-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.repo-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.repo-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+.repo-card a {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+.repo-card a:hover {
+    text-decoration: underline;
+}

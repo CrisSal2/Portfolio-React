@@ -7,6 +7,8 @@
   
   - My updated portfolio created with React!
 
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/2733c5f0-5aa3-41b6-8433-7bbe5c2d6a5c/deploy-status)](https://app.netlify.com/sites/cozy-daifuku-c6328f/deploys)
+
   ![Webpage Preview](./src/assets/images/portfolio.png)
   
 ## Features

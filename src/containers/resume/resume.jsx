@@ -8,7 +8,7 @@ function Resume() {
       <div className='image-container'>
         <img src={comingSoon} alt="coming-soon" />
       </div>
-      <a href="/resume.pdf" download="ChristianSalgado_Resume.pdf" className="download-btn">
+      <a href="/resume.pdf" download="Salgado-Resume.pdf" className="download-btn">
         Download Resume
       </a>
     </div>

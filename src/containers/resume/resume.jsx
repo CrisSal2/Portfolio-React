@@ -1,4 +1,4 @@
-import comingSoon from '../../assets/images/coming-soon.png';
+import SalgadoResume from '../../assets/images/Salgado-Resume.jpg';
 import './resume.css';
 
 function Resume() {
@@ -6,7 +6,7 @@ function Resume() {
     <div className="resume-download-container">
       <h2>Download My Resume</h2>
       <div className='image-container'>
-        <img src={comingSoon} alt="coming-soon" />
+        <img src={SalgadoResume} alt="coming-soon" />
       </div>
       <a href="/Salgado-Resume.pdf" download="Salgado-Resume.pdf" className="download-btn">
         Download Resume
